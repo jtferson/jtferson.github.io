@@ -2,7 +2,7 @@
 layout: single
 title:  "Flecs + UE4 is magic"
 date:   2021-01-17 14:58:47 +0300
-categories: jekyll update
+categories: blog
 ---
 Over the last six months I've been heavily using [Flecs](https://github.com/SanderMertens/flecs) with Unreal. In my opinion, Flecs is one of the most powerful and flexible frameworks that seamlessly brings ECS to Unreal universe.
 
@@ -27,8 +27,6 @@ Some other things need to know before jumping into Flecs + UE4:
 
 
 ## Conclusion
-
-
 
 Flecs looks very promising, and I believe has a path to becoming a mature fully production-ready ECS framework.
 
