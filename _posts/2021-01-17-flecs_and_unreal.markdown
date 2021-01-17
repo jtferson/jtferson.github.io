@@ -12,7 +12,7 @@ So, why is that?
 - For the complex projects that are usually split into many modules you may consider a way of making Flecs part of the module/plugin Unreal system that is also a simple thing to do.
 - Unreal Subsystems are perfect to manage the lifecycle of the Flecs world. It also means that you can get painless access to the Flecs world across the board.
 - For some logic related to Unreal runtime objects it's straightforward just to use pointers to your AActors and UObjects inside Flecs components.
-- For example, if using C++-based UI and connecting C++ to UMG through BindWidget as I'm doing, then nothing changes for a UI developer - you just need to expose the Flecs world to your widgets and create special UObjects which will be a bridge for data flow between UMG and Flecs. After that it's quite easy to make UI data to be updated on the event or tick basis.
+- For example, if using C++-based UI and connecting C++ to UMG through BindWidget as I'm doing, then nothing changes for a UI developer - you just need to expose the Flecs world to your widgets and create special UObjects which will be a bridge for data flow between UMG and Flecs. After that it's quite easy to make UI data to be updated from the Flecs side on the event or tick basis.
 
 As an example of what you can make using Unreal with Flecs:
 
