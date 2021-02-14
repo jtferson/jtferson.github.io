@@ -57,6 +57,7 @@ defaults:
       type: posts
     values:
       layout: single
+      #classes: wide
       author_profile: true
       read_time: true
       show_date: true
@@ -67,6 +68,7 @@ permalink: /:categories/:title/
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-analytics
   
 
 footer:
@@ -74,6 +76,11 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jtferson"
+      
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: G-6Z0DTP462C          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 
  
